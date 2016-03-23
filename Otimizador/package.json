@@ -1,0 +1,10 @@
+{
+  "name": "Otimizador",
+  "version": "0.0.0",
+  "description": "Otimizador",
+  "main": "app.js",
+  "author": {
+    "name": "Fabio",
+    "email": ""
+  }
+}
