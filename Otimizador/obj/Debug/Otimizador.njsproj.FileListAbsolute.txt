@@ -1,2 +1,1 @@
-D:\GitHub\OtimizadorNodeJs\Otimizador\obj\Debug\Otimizador.njsprojResolveAssemblyReference.cache
 D:\GitHub\OtimizadorNodeJs\Otimizador\bin\Microsoft.NodejsTools.WebRole.dll

@@ -33,17 +33,28 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
+    <Content Include="tsconfig.json" />
+    <TypeScriptCompile Include="app.ts">
+      <Publish>True</Publish>
+    </TypeScriptCompile>
     <Content Include="package.json" />
     <Content Include="README.md" />
     <TypeScriptCompile Include="Classes\Configuration.ts" />
-    <TypeScriptCompile Include="Classes\Heuristics\GA.ts" />
+    <TypeScriptCompile Include="Classes\Heuristics\GA.ts">
+      <Publish>True</Publish>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="Classes\IHeuristic.ts" />
+    <TypeScriptCompile Include="Scripts\typings\mocha\mocha-node-tests.ts" />
+    <TypeScriptCompile Include="Scripts\typings\mocha\mocha-node.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\mocha\mocha-tests.ts" />
+    <TypeScriptCompile Include="Scripts\typings\mocha\mocha.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
     <Folder Include="Classes\Heuristics\" />
+    <Folder Include="Scripts\typings\mocha\" />
+    <Folder Include="Test\" />
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />
