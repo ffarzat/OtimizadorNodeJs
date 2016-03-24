@@ -1,0 +1,16 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "outFile": "app.js",
+    "noLib": false
+  },
+  "exclude": [
+    "node_modules",
+    "Scripts",
+    "Test"
+    ]
+}

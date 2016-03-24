@@ -1,0 +1,14 @@
+{
+  "name": "Otimizador-Node-Js",
+  "version": "0.0.0",
+  "description": "Otimizador",
+  "main": "app.js",
+  "author": {
+    "name": "Fabio Farzat",
+    "email": "ffarzat@cos.ufrj.br"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  }
+}
