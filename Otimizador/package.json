@@ -7,8 +7,11 @@
     "name": "Fabio Farzat",
     "email": "ffarzat@cos.ufrj.br"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^2.4.5"
+  },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "pretest": ""
   }
 }
